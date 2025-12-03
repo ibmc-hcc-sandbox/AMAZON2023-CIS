@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ansible_role_cis_amzon2023
+  name: ansible_role_cis_amazon2023
   title: Ansible Automation to Configure Amazon 2023 machine to be CIS compliant
-  language: terraform
+  language: ansible
   description: |
     Ansible Automation to Configure Amazon 2023 machine to be CIS compliant
   annotations:
