@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ansible_role_cis_amzon2023
+  title: Ansible Automation to Configure Amazon 2023 machine to be CIS compliant
+  language: terraform
+  description: |
+    Ansible Automation to Configure Amazon 2023 machine to be CIS compliant
+  annotations:
+    github.com/project-slug: ibmc-hcc-sandbox/AMAZON2023-CIS
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - terraform
+    - aws
+    - cis
+
+spec:
+  type: service
+  owner: Platform-Engineering-Services/ansible-code-managers
+  lifecycle: production
